@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    outline: none;
+    border: 0;
+    border: none;
+    background-color: transparent;
+    font-family: 'Saira', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, legend, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+}
+
+    h1 > span, h2 > span, h3 > span, h4 > span, h5 > span, h6 > span {
+        font-family: 'Saira', sans-serif;
+        font-weight: 300;
+    }
+
+p, a, text, input, button, textarea, li, dd, dt, dl {
+    font-size: 10pt;
+    color: black;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.aw-core-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.aw-core-primary-color {
+    color: black;
+}
+
+.aw-core-secondary-color {
+    color: rgba(6, 135, 230);
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.aw-search-tag {
+    font-family: Saira;
+    float: left;
+    font-size: 10pt;
+    height: 24px;
+    margin-top: 4px;
+    margin-right: 3px;
+    line-height: 26px;
+    background-color: rgba(215, 221, 225);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+    .aw-search-tag > a {
+        font-size: 10pt;
+        font-family: Saira;
+        text-decoration: none;
+        line-height: 32px;
+    }
+
+#aw-main-layout-search-form-container {
+    width: 40%;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: calc((100% / 2) - (40% / 2));
+    text-align: center;
+    line-height: 32px;
+    background-color: rgba(236, 238, 240);
+    overflow: hidden;
+    background-image: url("../images/aw-search-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    #aw-main-layout-search-form-container:focus {
+        background-image: none;
+    }
+
+    #aw-main-layout-search-form-container > form {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+        #aw-main-layout-search-form-container > form > input[type="search"] {
+            max-width: 100%;
+            text-align: center;
+            line-height: 32px;
+            float: left;
+            background-color: transparent;
+        }
+
+            #aw-main-layout-search-form-container > form > input[type="search"]:focus {
+                background-image: none;
+                text-align: left;
+                /*float: left;*/
+            }
